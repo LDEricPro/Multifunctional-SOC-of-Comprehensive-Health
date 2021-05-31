@@ -1,0 +1,3073 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sat May 29 12:02:46 2021
+| Host         : DESKTOP-NJBJAPS running 64-bit major release  (build 9200)
+| Command      : report_methodology -file m3_for_arty_a7_wrapper_methodology_drc_routed.rpt -pb m3_for_arty_a7_wrapper_methodology_drc_routed.pb -rpx m3_for_arty_a7_wrapper_methodology_drc_routed.rpx
+| Design       : m3_for_arty_a7_wrapper
+| Device       : xc7a100tcsg324-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 592
++-----------+------------------+---------------------------------------------+------------+
+| Rule      | Severity         | Description                                 | Violations |
++-----------+------------------+---------------------------------------------+------------+
+| TIMING-17 | Critical Warning | Non-clocked sequential cell                 | 536        |
+| LUTAR-1   | Warning          | LUT drives async reset alert                | 12         |
+| TIMING-9  | Warning          | Unknown CDC Logic                           | 1          |
+| TIMING-10 | Warning          | Missing property on synchronizer            | 1          |
+| TIMING-16 | Warning          | Large setup violation                       | 4          |
+| TIMING-18 | Warning          | Missing input or output delay               | 1          |
+| XDCB-5    | Warning          | Runtime inefficient way to find pin objects | 3          |
+| XDCH-2    | Warning          | Same min and max delay values on IO port    | 34         |
++-----------+------------------+---------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-17#1 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/FSM_onehot_state_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/FSM_onehot_state_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/FSM_onehot_state_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/FSM_onehot_state_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/FSM_onehot_state_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#6 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/FSM_onehot_state_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#7 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/FSM_onehot_state_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#8 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/FSM_onehot_state_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#9 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/FSM_onehot_state_reg[17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#10 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/FSM_onehot_state_reg[18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#11 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/FSM_onehot_state_reg[19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#12 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/FSM_onehot_state_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#13 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/FSM_onehot_state_reg[20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#14 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/FSM_onehot_state_reg[21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#15 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/FSM_onehot_state_reg[22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#16 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/FSM_onehot_state_reg[23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#17 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/FSM_onehot_state_reg[24]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#18 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/FSM_onehot_state_reg[25]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#19 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/FSM_onehot_state_reg[26]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#20 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/FSM_onehot_state_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#21 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/FSM_onehot_state_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#22 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/FSM_onehot_state_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#23 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/FSM_onehot_state_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#24 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/FSM_onehot_state_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#25 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/FSM_onehot_state_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#26 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/FSM_onehot_state_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#27 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/FSM_onehot_state_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#28 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/OUT0832_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#29 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/OUT0832_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#30 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/OUT0832_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#31 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/OUT0832_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#32 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/OUT0832_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#33 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/OUT0832_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#34 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/OUT0832_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#35 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/OUT0832_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#36 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/clk_0832_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#37 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/cs_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#38 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/data_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#39 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/data_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#40 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/data_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#41 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/data_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#42 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/data_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#43 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/data_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#44 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/data_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#45 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_ADC0832_0/inst/Exin_ADC0832_v1_0_S0_AXI_inst/U1/data_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#46 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/FSM_onehot_state_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#47 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/FSM_onehot_state_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#48 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/FSM_onehot_state_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#49 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/FSM_onehot_state_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#50 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#51 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#52 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#53 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#54 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#55 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#56 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#57 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#58 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#59 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#60 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#61 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#62 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#63 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#64 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#65 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#66 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[24]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#67 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[25]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#68 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[26]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#69 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[27]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#70 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[28]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#71 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[29]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#72 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#73 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[30]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#74 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[31]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#75 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#76 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#77 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#78 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#79 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#80 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#81 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/Heart_Fre_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#82 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#83 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#84 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#85 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#86 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#87 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#88 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#89 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#90 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#91 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#92 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#93 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#94 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#95 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#96 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#97 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#98 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[24]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#99 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[25]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#100 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[26]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#101 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[27]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#102 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[28]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#103 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[29]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#104 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#105 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[30]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#106 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[31]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#107 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#108 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#109 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#110 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#111 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#112 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#113 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/cnt_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#114 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/interrupt_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#115 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/rseult_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#116 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_HeartFre2_0/inst/Exin_HeartFre2_v1_0_S0_AXI_inst/U0/rseult_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#117 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_IO_printer_0/inst/Exin_IO_printer_v1_0_S0_AXI_inst/printer/IO_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#118 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_IO_printer_0/inst/Exin_IO_printer_v1_0_S0_AXI_inst/printer/IO_reg[0]_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#119 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_IO_printer_0/inst/Exin_IO_printer_v1_0_S0_AXI_inst/printer/IO_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#120 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_IO_printer_0/inst/Exin_IO_printer_v1_0_S0_AXI_inst/printer/IO_reg[1]_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#121 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_IO_printer_0/inst/Exin_IO_printer_v1_0_S0_AXI_inst/printer/IO_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#122 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_IO_printer_0/inst/Exin_IO_printer_v1_0_S0_AXI_inst/printer/IO_reg[2]_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#123 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_IO_printer_0/inst/Exin_IO_printer_v1_0_S0_AXI_inst/printer/IO_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#124 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_IO_printer_0/inst/Exin_IO_printer_v1_0_S0_AXI_inst/printer/IO_reg[3]_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#125 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_IO_printer_0/inst/Exin_IO_printer_v1_0_S0_AXI_inst/printer/IO_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#126 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_IO_printer_0/inst/Exin_IO_printer_v1_0_S0_AXI_inst/printer/IO_reg[4]_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#127 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_IO_printer_0/inst/Exin_IO_printer_v1_0_S0_AXI_inst/printer/IO_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#128 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_IO_printer_0/inst/Exin_IO_printer_v1_0_S0_AXI_inst/printer/IO_reg[5]_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#129 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_IO_printer_0/inst/Exin_IO_printer_v1_0_S0_AXI_inst/printer/IO_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#130 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_IO_printer_0/inst/Exin_IO_printer_v1_0_S0_AXI_inst/printer/IO_reg[6]_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#131 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_IO_printer_0/inst/Exin_IO_printer_v1_0_S0_AXI_inst/printer/IO_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#132 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_IO_printer_0/inst/Exin_IO_printer_v1_0_S0_AXI_inst/printer/IO_reg[7]_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#133 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_IO_printer_0/inst/Exin_IO_printer_v1_0_S0_AXI_inst/printer/finishflag_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#134 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_IO_printer_0/inst/Exin_IO_printer_v1_0_S0_AXI_inst/printer/state_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#135 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_IO_printer_0/inst/Exin_IO_printer_v1_0_S0_AXI_inst/printer/state_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#136 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_IO_printer_0/inst/Exin_IO_printer_v1_0_S0_AXI_inst/printer/state_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#137 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_IO_printer_0/inst/Exin_IO_printer_v1_0_S0_AXI_inst/printer/state_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#138 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/Thread0_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#139 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/Thread0_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#140 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/Thread0_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#141 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/Thread0_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#142 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/Thread0_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#143 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/Thread0_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#144 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/Thread0_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#145 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/Thread0_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#146 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/cnt_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#147 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/cnt_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#148 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/cnt_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#149 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/cnt_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#150 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/cnt_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#151 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/cnt_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#152 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/cnt_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#153 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/cnt_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#154 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/cnt_reg[17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#155 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/cnt_reg[18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#156 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/cnt_reg[19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#157 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/cnt_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#158 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/cnt_reg[20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#159 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/cnt_reg[21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#160 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/cnt_reg[22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#161 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/cnt_reg[23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#162 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/cnt_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#163 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/cnt_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#164 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/cnt_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#165 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/cnt_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#166 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/cnt_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#167 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/cnt_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#168 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/cnt_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#169 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/cnt_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#170 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/max0_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#171 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/max0_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#172 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/max0_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#173 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/max0_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#174 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/max0_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#175 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/max0_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#176 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/max0_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#177 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/max0_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#178 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/max_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#179 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/max_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#180 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/max_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#181 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/max_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#182 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/max_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#183 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/max_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#184 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/max_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#185 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/max_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#186 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/min0_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#187 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/min0_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#188 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/min0_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#189 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/min0_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#190 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/min0_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#191 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/min0_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#192 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/min0_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#193 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/min0_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#194 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/min_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#195 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/min_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#196 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/min_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#197 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/min_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#198 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/min_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#199 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/min_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#200 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/min_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#201 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MAXMIN2_0/inst/Exin_MAXMIN2_v1_0_S0_AXI_inst/U0/min_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#202 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#203 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#204 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#205 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#206 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#207 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#208 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#209 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#210 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#211 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#212 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#213 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#214 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#215 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#216 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#217 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#218 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#219 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#220 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#221 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#222 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#223 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#224 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#225 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#226 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#227 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#228 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#229 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#230 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#231 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#232 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#233 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#234 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_OUT_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#235 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_OUT_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#236 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_OUT_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#237 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_OUT_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#238 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_OUT_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#239 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_OUT_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#240 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_OUT_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#241 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_OUT_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#242 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_OUT_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#243 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_OUT_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#244 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_OUT_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#245 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_OUT_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#246 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_OUT_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#247 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_OUT_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#248 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_OUT_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#249 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_OUT_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#250 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#251 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#252 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#253 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#254 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#255 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#256 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#257 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#258 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#259 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#260 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#261 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#262 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#263 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#264 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#265 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ay_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#266 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_OUT_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#267 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_OUT_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#268 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_OUT_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#269 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_OUT_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#270 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_OUT_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#271 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_OUT_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#272 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_OUT_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#273 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_OUT_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#274 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_OUT_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#275 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_OUT_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#276 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_OUT_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#277 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_OUT_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#278 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_OUT_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#279 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_OUT_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#280 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_OUT_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#281 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_OUT_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#282 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#283 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#284 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#285 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#286 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#287 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#288 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#289 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#290 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#291 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#292 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#293 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#294 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#295 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#296 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#297 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Az_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#298 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/FSM_onehot_state0_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#299 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/FSM_onehot_state0_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#300 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/FSM_onehot_state0_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#301 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/FSM_onehot_state0_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#302 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/FSM_onehot_state0_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#303 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/FSM_onehot_state0_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#304 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/FSM_onehot_state0_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#305 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/FSM_onehot_state0_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#306 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/FSM_onehot_state0_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#307 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/FSM_onehot_state1_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#308 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/FSM_onehot_state1_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#309 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/FSM_onehot_state1_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#310 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/FSM_onehot_state1_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#311 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/FSM_onehot_state1_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#312 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/FSM_onehot_state1_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#313 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/FSM_onehot_state1_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#314 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/FSM_onehot_state1_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#315 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/FSM_onehot_state1_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#316 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_OUT_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#317 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_OUT_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#318 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_OUT_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#319 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_OUT_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#320 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_OUT_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#321 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_OUT_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#322 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_OUT_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#323 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_OUT_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#324 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_OUT_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#325 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_OUT_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#326 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_OUT_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#327 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_OUT_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#328 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_OUT_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#329 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_OUT_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#330 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_OUT_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#331 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_OUT_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#332 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#333 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#334 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#335 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#336 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#337 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#338 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#339 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#340 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#341 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#342 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#343 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#344 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#345 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#346 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#347 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Pitch_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#348 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_OUT_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#349 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_OUT_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#350 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_OUT_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#351 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_OUT_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#352 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_OUT_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#353 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_OUT_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#354 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_OUT_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#355 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_OUT_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#356 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_OUT_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#357 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_OUT_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#358 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_OUT_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#359 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_OUT_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#360 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_OUT_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#361 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_OUT_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#362 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_OUT_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#363 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_OUT_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#364 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#365 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#366 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#367 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#368 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#369 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#370 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#371 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#372 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#373 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#374 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#375 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#376 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#377 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#378 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#379 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/ROLL_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#380 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_OUT_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#381 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_OUT_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#382 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_OUT_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#383 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_OUT_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#384 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_OUT_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#385 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_OUT_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#386 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_OUT_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#387 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_OUT_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#388 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_OUT_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#389 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_OUT_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#390 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_OUT_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#391 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_OUT_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#392 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_OUT_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#393 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_OUT_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#394 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_OUT_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#395 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_OUT_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#396 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#397 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#398 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#399 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#400 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#401 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#402 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#403 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#404 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#405 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#406 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#407 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#408 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#409 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#410 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#411 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Yaw_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#412 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/FSM_onehot_state_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#413 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/FSM_onehot_state_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#414 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/FSM_onehot_state_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#415 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/FSM_onehot_state_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#416 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/FSM_onehot_state_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#417 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/FSM_onehot_state_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#418 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/FSM_onehot_state_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#419 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/FSM_onehot_state_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#420 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/FSM_onehot_state_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#421 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/FSM_onehot_state_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#422 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/FSM_onehot_state_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#423 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/FSM_onehot_state_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#424 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/FSM_onehot_state_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#425 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#426 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#427 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#428 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#429 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#430 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#431 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#432 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#433 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#434 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#435 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#436 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#437 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#438 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#439 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#440 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#441 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[24]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#442 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[25]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#443 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[26]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#444 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[27]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#445 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[28]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#446 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[29]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#447 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#448 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[30]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#449 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[31]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#450 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#451 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#452 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#453 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#454 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#455 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#456 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/counter_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#457 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#458 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#459 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#460 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#461 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#462 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#463 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#464 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#465 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#466 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#467 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#468 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#469 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#470 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#471 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[24]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#472 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[25]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#473 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[26]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#474 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[27]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#475 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[28]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#476 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[29]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#477 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[30]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#478 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[31]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#479 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[32]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#480 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[33]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#481 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[34]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#482 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[35]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#483 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[36]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#484 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[37]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#485 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[38]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#486 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[39]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#487 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#488 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data1_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#489 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#490 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#491 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#492 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#493 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#494 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#495 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#496 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#497 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#498 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#499 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#500 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#501 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#502 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#503 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#504 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#505 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[24]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#506 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[25]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#507 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[26]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#508 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[27]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#509 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[28]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#510 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[29]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#511 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#512 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[30]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#513 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[31]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#514 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[32]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#515 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[33]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#516 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[34]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#517 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[35]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#518 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[36]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#519 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[37]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#520 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[38]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#521 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[39]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#522 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#523 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#524 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#525 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#526 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#527 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#528 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#529 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/data_reg_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#530 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/flag_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#531 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/rec_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#532 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/rec_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#533 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/rec_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#534 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/rec_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#535 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/rec_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#536 Critical Warning
+Non-clocked sequential cell  
+The clock pin m3_for_arty_a7_i/Exin_dht11_0/inst/Exin_dht11_v1_0_S0_AXI_inst/U1/nolabel_line18/rec_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell m3_for_arty_a7_i/Clocks_and_Resets/i_sysresetn_or/Res[0]_INST_0, with 2 or more inputs, drives asynchronous preset/clear pin(s) m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ABURST_reg[0]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[0]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[10]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[11]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[12]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[13]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[14]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[15]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[16]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[17]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[18]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[19]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[1]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[20]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[21]/CLR (the first 15 of 104 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#2 Warning
+LUT drives async reset alert  
+LUT cell m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_itm/u_itm_if/overflow_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/refreset_n_q_reg/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/refreset_n_qq_reg/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_rom_table/addr_reg_reg[0]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_rom_table/addr_reg_reg[1]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_rom_table/addr_reg_reg[2]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_rom_table/addr_reg_reg[3]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_rom_table/addr_reg_reg[4]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_rom_table/addr_reg_reg[5]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_sync_dappwrup/d_sync1_reg/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_sync_dappwrup/q_reg/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_tpiu/u_cm3_tpiu_apb_if/baud_div_reset_reg__0/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_tpiu/u_cm3_tpiu_apb_if/claim_tag_reg[0]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_tpiu/u_cm3_tpiu_apb_if/claim_tag_reg[1]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_tpiu/u_cm3_tpiu_apb_if/claim_tag_reg[2]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_tpiu/u_cm3_tpiu_apb_if/claim_tag_reg[3]/CLR (the first 15 of 659 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#3 Warning
+LUT drives async reset alert  
+LUT cell m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_nvic/u_cm3_nvic_reg/base_addr[7]_i_2__6, with 2 or more inputs, drives asynchronous preset/clear pin(s) m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/bm_icore_to_sys_valid_reg_reg/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/bm_master_sel_reg[0]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/bm_master_sel_reg[1]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/bm_master_sel_reg[2]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/bm_slave_sel_reg[0]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/bm_slave_sel_reg[1]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/bm_state_reg[0]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/bm_state_reg[1]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/bm_state_reg[2]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/bm_state_reg[3]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/bm_unalign_reg[0]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/bm_unalign_reg[1]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/bm_unalign_reg[2]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/dcore_fpb_pend_reg/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/icore_fpb_pend_reg/CLR (the first 15 of 507 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#4 Warning
+LUT drives async reset alert  
+LUT cell m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_nvic/u_cm3_nvic_reg/dbg_restarted_reg_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[0]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[10]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[11]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[13]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[1]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[2]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[3]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[4]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[5]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[6]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[7]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[8]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[9]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/allow_pc_write_reg/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[12]/PRE (the first 15 of 879 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#5 Warning
+LUT drives async reset alert  
+LUT cell m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr[1]_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[0]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[10]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[11]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[12]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[13]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[14]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[15]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[1]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[2]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[4]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[5]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[6]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[7]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[8]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[9]/CLR (the first 15 of 24 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#6 Warning
+LUT drives async reset alert  
+LUT cell m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwDpProtocol/TrnferCnt_cdc_check[0]_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/APabort_reg/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/APbanksel_reg[4]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/APbanksel_reg[5]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/APbanksel_reg[6]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/APbanksel_reg[7]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/APdir_cdc_check_reg/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/APsel_reg[0]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/APsel_reg[1]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/APsel_reg[2]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/APsel_reg[3]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/APsel_reg[4]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/APsel_reg[5]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/APsel_reg[6]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/APsel_reg[7]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/Busreqi_reg/CLR (the first 15 of 331 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#7 Warning
+LUT drives async reset alert  
+LUT cell m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR[28]_i_15, with 2 or more inputs, drives asynchronous preset/clear pin(s) m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_tpiu/u_cm3_tpiu_trace_sync/u_baud_div_reset/data_sync1_reg/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_tpiu/u_cm3_tpiu_trace_sync/u_baud_div_reset/data_sync2_reg/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_tpiu/u_cm3_tpiu_trace_sync/u_sync_valid_async/data_sync1_reg/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_tpiu/u_cm3_tpiu_trace_sync/u_sync_valid_async/data_sync2_reg/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_tpiu/u_cm3_tpiu_trace_sync/u_write_pointer1_gray0/data_sync1_reg/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_tpiu/u_cm3_tpiu_trace_sync/u_write_pointer1_gray0/data_sync2_reg/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_tpiu/u_cm3_tpiu_trace_sync/u_write_pointer1_gray1/data_sync1_reg/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_tpiu/u_cm3_tpiu_trace_sync/u_write_pointer1_gray1/data_sync2_reg/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_tpiu/u_cm3_tpiu_trace_sync/u_write_pointer1_gray2/data_sync1_reg/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_tpiu/u_cm3_tpiu_trace_sync/u_write_pointer1_gray2/data_sync2_reg/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_tpiu/u_cm3_tpiu_trace_fifo1/read_pointer_gray_async_reg[0]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_tpiu/u_cm3_tpiu_trace_fifo1/read_pointer_gray_async_reg[1]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_tpiu/u_cm3_tpiu_trace_fifo1/read_pointer_gray_async_reg[2]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_tpiu/u_cm3_tpiu_trace_out/FSM_onehot_serial_state_reg[0]/CLR, m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/u_cm3_tpiu/u_cm3_tpiu_trace_out/FSM_onehot_serial_state_reg[1]/CLR (the first 15 of 63 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#8 Warning
+LUT drives async reset alert  
+LUT cell m3_for_arty_a7_i/Exin_HMITX_0/inst/Exin_HMITX_v1_0_S0_AXI_inst/HMI0/HMI0/dout_i_4, with 2 or more inputs, drives asynchronous preset/clear pin(s) m3_for_arty_a7_i/Exin_HMITX_0/inst/Exin_HMITX_v1_0_S0_AXI_inst/HMI0/HMI0/cnt0_reg[0]/CLR, m3_for_arty_a7_i/Exin_HMITX_0/inst/Exin_HMITX_v1_0_S0_AXI_inst/HMI0/HMI0/cnt0_reg[10]/CLR, m3_for_arty_a7_i/Exin_HMITX_0/inst/Exin_HMITX_v1_0_S0_AXI_inst/HMI0/HMI0/cnt0_reg[11]/CLR, m3_for_arty_a7_i/Exin_HMITX_0/inst/Exin_HMITX_v1_0_S0_AXI_inst/HMI0/HMI0/cnt0_reg[12]/CLR, m3_for_arty_a7_i/Exin_HMITX_0/inst/Exin_HMITX_v1_0_S0_AXI_inst/HMI0/HMI0/cnt0_reg[13]/CLR, m3_for_arty_a7_i/Exin_HMITX_0/inst/Exin_HMITX_v1_0_S0_AXI_inst/HMI0/HMI0/cnt0_reg[14]/CLR, m3_for_arty_a7_i/Exin_HMITX_0/inst/Exin_HMITX_v1_0_S0_AXI_inst/HMI0/HMI0/cnt0_reg[1]/CLR, m3_for_arty_a7_i/Exin_HMITX_0/inst/Exin_HMITX_v1_0_S0_AXI_inst/HMI0/HMI0/cnt0_reg[2]/CLR, m3_for_arty_a7_i/Exin_HMITX_0/inst/Exin_HMITX_v1_0_S0_AXI_inst/HMI0/HMI0/cnt0_reg[3]/CLR, m3_for_arty_a7_i/Exin_HMITX_0/inst/Exin_HMITX_v1_0_S0_AXI_inst/HMI0/HMI0/cnt0_reg[4]/CLR, m3_for_arty_a7_i/Exin_HMITX_0/inst/Exin_HMITX_v1_0_S0_AXI_inst/HMI0/HMI0/cnt0_reg[5]/CLR, m3_for_arty_a7_i/Exin_HMITX_0/inst/Exin_HMITX_v1_0_S0_AXI_inst/HMI0/HMI0/cnt0_reg[6]/CLR, m3_for_arty_a7_i/Exin_HMITX_0/inst/Exin_HMITX_v1_0_S0_AXI_inst/HMI0/HMI0/cnt0_reg[7]/CLR, m3_for_arty_a7_i/Exin_HMITX_0/inst/Exin_HMITX_v1_0_S0_AXI_inst/HMI0/HMI0/cnt0_reg[8]/CLR, m3_for_arty_a7_i/Exin_HMITX_0/inst/Exin_HMITX_v1_0_S0_AXI_inst/HMI0/HMI0/cnt0_reg[9]/CLR (the first 15 of 29 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#9 Warning
+LUT drives async reset alert  
+LUT cell m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/axi_rdata[0]_i_5, with 2 or more inputs, drives asynchronous preset/clear pin(s) m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[0]/CLR, m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[10]/CLR, m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[11]/CLR, m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[12]/CLR, m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[13]/CLR, m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[14]/CLR, m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[15]/CLR, m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[1]/CLR, m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[2]/CLR, m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[3]/CLR, m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[4]/CLR, m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[5]/CLR, m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[6]/CLR, m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[7]/CLR, m3_for_arty_a7_i/Exin_MPU6050_GYXX_0/inst/Exin_MPU6050_GYXX_v1_0_S00_AXI_inst/MPU6050/Ax_OUT_reg[8]/CLR (the first 15 of 242 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#10 Warning
+LUT drives async reset alert  
+LUT cell m3_for_arty_a7_i/Exin_StepCounter_deb_0/inst/aw_en_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) m3_for_arty_a7_i/Exin_StepCounter_deb_0/inst/Exin_StepCounter_debug_v1_0_S00_AXI_inst/U1/FSM_onehot_state_reg[1]/CLR, m3_for_arty_a7_i/Exin_StepCounter_deb_0/inst/Exin_StepCounter_debug_v1_0_S00_AXI_inst/U1/FSM_onehot_state_reg[2]/CLR, m3_for_arty_a7_i/Exin_StepCounter_deb_0/inst/Exin_StepCounter_debug_v1_0_S00_AXI_inst/U1/FSM_onehot_state_reg[3]/CLR, m3_for_arty_a7_i/Exin_StepCounter_deb_0/inst/Exin_StepCounter_debug_v1_0_S00_AXI_inst/U1/MixValue_reg[0]/CLR, m3_for_arty_a7_i/Exin_StepCounter_deb_0/inst/Exin_StepCounter_debug_v1_0_S00_AXI_inst/U1/MixValue_reg[10]/CLR, m3_for_arty_a7_i/Exin_StepCounter_deb_0/inst/Exin_StepCounter_debug_v1_0_S00_AXI_inst/U1/MixValue_reg[11]/CLR, m3_for_arty_a7_i/Exin_StepCounter_deb_0/inst/Exin_StepCounter_debug_v1_0_S00_AXI_inst/U1/MixValue_reg[12]/CLR, m3_for_arty_a7_i/Exin_StepCounter_deb_0/inst/Exin_StepCounter_debug_v1_0_S00_AXI_inst/U1/MixValue_reg[13]/CLR, m3_for_arty_a7_i/Exin_StepCounter_deb_0/inst/Exin_StepCounter_debug_v1_0_S00_AXI_inst/U1/MixValue_reg[14]/CLR, m3_for_arty_a7_i/Exin_StepCounter_deb_0/inst/Exin_StepCounter_debug_v1_0_S00_AXI_inst/U1/MixValue_reg[15]/CLR, m3_for_arty_a7_i/Exin_StepCounter_deb_0/inst/Exin_StepCounter_debug_v1_0_S00_AXI_inst/U1/MixValue_reg[16]/CLR, m3_for_arty_a7_i/Exin_StepCounter_deb_0/inst/Exin_StepCounter_debug_v1_0_S00_AXI_inst/U1/MixValue_reg[17]/CLR, m3_for_arty_a7_i/Exin_StepCounter_deb_0/inst/Exin_StepCounter_debug_v1_0_S00_AXI_inst/U1/MixValue_reg[1]/CLR, m3_for_arty_a7_i/Exin_StepCounter_deb_0/inst/Exin_StepCounter_debug_v1_0_S00_AXI_inst/U1/MixValue_reg[2]/CLR, m3_for_arty_a7_i/Exin_StepCounter_deb_0/inst/Exin_StepCounter_debug_v1_0_S00_AXI_inst/U1/MixValue_reg[3]/CLR (the first 15 of 54 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#11 Warning
+LUT drives async reset alert  
+LUT cell m3_for_arty_a7_i/Exin_noliner2_0/inst/Exin_noliner2_v1_0_S0_AXI_inst/U1/cordic/finish_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) m3_for_arty_a7_i/Exin_noliner2_0/inst/Exin_noliner2_v1_0_S0_AXI_inst/U1/cordic/finish_reg__0/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#12 Warning
+LUT drives async reset alert  
+LUT cell m3_for_arty_a7_i/Exin_noliner2_0/inst/Exin_noliner2_v1_0_S0_AXI_inst/U1/exp/i_, with 2 or more inputs, drives asynchronous preset/clear pin(s) m3_for_arty_a7_i/Exin_noliner2_0/inst/Exin_noliner2_v1_0_S0_AXI_inst/U1/exp/finish_reg/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-9#1 Warning
+Unknown CDC Logic  
+One or more asynchronous Clock Domain Crossing has been detected between 2 clock domains through a set_false_path or a set_clock_groups or set_max_delay -datapath_only constraint but no double-registers logic synchronizer has been found on the side of the capture clock. It is recommended to run report_cdc for a complete and detailed CDC coverage. Please consider using XPM_CDC to avoid Critical severities
+Related violations: <none>
+
+TIMING-10#1 Warning
+Missing property on synchronizer  
+One or more logic synchronizer has been detected between 2 clock domains but the synchronizer does not have the property ASYNC_REG defined on one or both registers. It is recommended to run report_cdc for a complete and detailed CDC coverage
+Related violations: <none>
+
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -1.685 ns between DAPLink_tri_o[4] (clocked by dap_qspi_clk) and m3_for_arty_a7_i/daplink_if_0/axi_xip_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/IO0_I_REG/D (clocked by qspi_clk). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -1.692 ns between DAPLink_tri_o[6] (clocked by dap_qspi_clk) and m3_for_arty_a7_i/daplink_if_0/axi_xip_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/IO2_I_REG/D (clocked by qspi_clk). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -1.696 ns between DAPLink_tri_o[7] (clocked by dap_qspi_clk) and m3_for_arty_a7_i/daplink_if_0/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/IO3_I_REG/D (clocked by qspi_clk). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -1.710 ns between DAPLink_tri_o[5] (clocked by dap_qspi_clk) and m3_for_arty_a7_i/daplink_if_0/axi_xip_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/IO1_I_REG/D (clocked by qspi_clk). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on TDO[0] relative to clock(s) SWCLK
+Related violations: <none>
+
+XDCB-5#1 Warning
+Runtime inefficient way to find pin objects  
+The option '-source : [get_pins -hierarchical -filter {NAME =~ *axi_single_spi_0/sck_o}]' of constraint 'create_generated_clock' uses inefficient query to find pin objects (see constraint position '16' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 114)
+Related violations: <none>
+
+XDCB-5#2 Warning
+Runtime inefficient way to find pin objects  
+The option '-source : [get_pins -hierarchical -filter {NAME =~ *axi_xip_quad_spi_0/sck_o}]' of constraint 'create_generated_clock' uses inefficient query to find pin objects (see constraint position '15' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 111)
+Related violations: <none>
+
+XDCB-5#3 Warning
+Runtime inefficient way to find pin objects  
+The option '-source : [get_pins -hierarchical -filter {NAME =~ m3_for_arty_a7_i/axi_quad_spi_0/sck_o}]' of constraint 'create_generated_clock' uses inefficient query to find pin objects (see constraint position '14' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 108)
+Related violations: <none>
+
+XDCH-2#1 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.500 ns has been defined on port 'DAPLink_tri_o[12]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports {DAPLink_tri_o[12]}]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 280)
+Related violations: <none>
+
+XDCH-2#2 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.500 ns has been defined on port 'DAPLink_tri_o[13]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports {DAPLink_tri_o[13]}]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 296)
+Related violations: <none>
+
+XDCH-2#3 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.500 ns has been defined on port 'DAPLink_tri_o[8]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports {DAPLink_tri_o[8]}]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 294)
+Related violations: <none>
+
+XDCH-2#4 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.500 ns has been defined on port 'dip_switches_4bits_tri_i[0]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports dip_switches*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 285)
+Related violations: <none>
+
+XDCH-2#5 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.500 ns has been defined on port 'dip_switches_4bits_tri_i[1]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports dip_switches*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 285)
+Related violations: <none>
+
+XDCH-2#6 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.500 ns has been defined on port 'dip_switches_4bits_tri_i[2]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports dip_switches*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 285)
+Related violations: <none>
+
+XDCH-2#7 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.500 ns has been defined on port 'dip_switches_4bits_tri_i[3]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports dip_switches*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 285)
+Related violations: <none>
+
+XDCH-2#8 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.500 ns has been defined on port 'push_buttons_4bits_tri_i[0]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports push_buttons*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 286)
+Related violations: <none>
+
+XDCH-2#9 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.500 ns has been defined on port 'push_buttons_4bits_tri_i[1]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports push_buttons*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 286)
+Related violations: <none>
+
+XDCH-2#10 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.500 ns has been defined on port 'push_buttons_4bits_tri_i[2]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports push_buttons*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 286)
+Related violations: <none>
+
+XDCH-2#11 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.500 ns has been defined on port 'push_buttons_4bits_tri_i[3]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports push_buttons*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 286)
+Related violations: <none>
+
+XDCH-2#12 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.500 ns has been defined on port 'reset' relative to clock cpu_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks cpu_clk] -add_delay 0.500 [get_ports reset*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 289)
+Related violations: <none>
+
+XDCH-2#13 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.500 ns has been defined on port 'usb_uart_rxd' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports usb_uart_rxd]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 279)
+Related violations: <none>
+
+XDCH-2#14 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'TDI' relative to clock SWCLK for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks SWCLK] -add_delay 5.000 [get_ports TDI]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 265)
+Related violations: <none>
+
+XDCH-2#15 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'nTRST' relative to clock SWCLK for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks SWCLK] -add_delay 5.000 [get_ports nTRST]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 266)
+Related violations: <none>
+
+XDCH-2#16 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'DAPLink_tri_o[11]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports {DAPLink_tri_o[11]}]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 282)
+Related violations: <none>
+
+XDCH-2#17 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'led_4bits_tri_o[0]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports led_4bits*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 301)
+Related violations: <none>
+
+XDCH-2#18 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'led_4bits_tri_o[1]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports led_4bits*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 301)
+Related violations: <none>
+
+XDCH-2#19 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'led_4bits_tri_o[2]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports led_4bits*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 301)
+Related violations: <none>
+
+XDCH-2#20 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'led_4bits_tri_o[3]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports led_4bits*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 301)
+Related violations: <none>
+
+XDCH-2#21 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'rgb_led_tri_o[0]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports rgb_led*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 302)
+Related violations: <none>
+
+XDCH-2#22 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'rgb_led_tri_o[10]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports rgb_led*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 302)
+Related violations: <none>
+
+XDCH-2#23 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'rgb_led_tri_o[11]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports rgb_led*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 302)
+Related violations: <none>
+
+XDCH-2#24 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'rgb_led_tri_o[1]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports rgb_led*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 302)
+Related violations: <none>
+
+XDCH-2#25 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'rgb_led_tri_o[2]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports rgb_led*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 302)
+Related violations: <none>
+
+XDCH-2#26 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'rgb_led_tri_o[3]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports rgb_led*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 302)
+Related violations: <none>
+
+XDCH-2#27 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'rgb_led_tri_o[4]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports rgb_led*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 302)
+Related violations: <none>
+
+XDCH-2#28 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'rgb_led_tri_o[5]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports rgb_led*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 302)
+Related violations: <none>
+
+XDCH-2#29 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'rgb_led_tri_o[6]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports rgb_led*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 302)
+Related violations: <none>
+
+XDCH-2#30 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'rgb_led_tri_o[7]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports rgb_led*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 302)
+Related violations: <none>
+
+XDCH-2#31 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'rgb_led_tri_o[8]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports rgb_led*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 302)
+Related violations: <none>
+
+XDCH-2#32 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'rgb_led_tri_o[9]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports rgb_led*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 302)
+Related violations: <none>
+
+XDCH-2#33 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'usb_uart_txd' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports usb_uart_txd]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 281)
+Related violations: <none>
+
+XDCH-2#34 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.000 ns has been defined on port 'TDO[0]' relative to clock SWCLK for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks SWCLK] -add_delay 5.000 [get_ports TDO*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 267)
+Related violations: <none>
+
+

@@ -1,0 +1,26 @@
+
+
+/***************************** Include Files *******************************/
+#include "Exin_dht11.h"
+#include "xil_io.h"
+
+/************************** Function Definitions ***************************/
+
+int DHT_WETH = 0;
+int DHT_WETL = 0;
+int DHT_TMPH = 0;
+int DHT_TMPL = 0;
+
+void EXIN_DHT_Init()
+{
+	EXIN_DHT11_mWriteReg(XPAR_EXIN_DHT11_0_S0_AXI_BASEADDR, EXIN_DHT11_S0_AXI_SLV_REG0_OFFSET, 0x01);
+	EXIN_DHT11_mWriteReg(XPAR_EXIN_DHT11_0_S0_AXI_BASEADDR, EXIN_DHT11_S0_AXI_SLV_REG0_OFFSET, 0x00);
+}
+
+void EXIN_DHT_Read()
+{
+	DHT_WETH = EXIN_DHT11_mReadReg(XPAR_EXIN_DHT11_0_S0_AXI_BASEADDR, EXIN_DHT11_S0_AXI_SLV_REG3_OFFSET);
+	DHT_WETL = EXIN_DHT11_mReadReg(XPAR_EXIN_DHT11_0_S0_AXI_BASEADDR, EXIN_DHT11_S0_AXI_SLV_REG4_OFFSET);
+	DHT_TMPH = EXIN_DHT11_mReadReg(XPAR_EXIN_DHT11_0_S0_AXI_BASEADDR, EXIN_DHT11_S0_AXI_SLV_REG1_OFFSET);
+	DHT_TMPL = EXIN_DHT11_mReadReg(XPAR_EXIN_DHT11_0_S0_AXI_BASEADDR, EXIN_DHT11_S0_AXI_SLV_REG2_OFFSET);
+}

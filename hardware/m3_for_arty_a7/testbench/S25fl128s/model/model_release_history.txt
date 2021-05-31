@@ -1,0 +1,527 @@
+##########################################
+Date (DD/MM/YYYY)  - 11.11.2009
+
+Model name         - S25FL128S
+
+Vendor             - Spansion (www.spansion.com)
+
+Publication ID     - S25FL128 256 512 01GS MRS Rev0 98
+
+VITAL model author -  Vesna Mancev
+                      v-mancev@hdl-dh.com
+                      Ranko Prokopovic
+                      r-prokopovic@hdl-dh.com
+                      Hana Dimitrijevic
+                      h-dimitrijevic@hdl-dh.com
+                      Branislav Colakovic
+                      b-colakovic@hdl-dh.com
+##########################################
+##########################################
+INITIAL RELEASE
+
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2009-11-11-3.tar.gz
+# Release Date (DD/MM/YYYY) => 11/11/2009
+# Release Version           => 1.0
+
+##########################################
+##########################################
+VITAL model author -  Vesna Mancev
+                      v-mancev@hdl-dh.com
+                      Ranko Prokopovic
+                      r-prokopovic@hdl-dh.com
+                      Hana Dimitrijevic
+                      h-dimitrijevic@hdl-dh.com
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2009-11-12-1.tar.gz
+# Release Date (DD/MM/YYYY) => 12/11/2009
+# Release Version           => 1.1
+
+# Correction of s25fl128s.v file :
+#    State transition from Program Suspend to Autoboot state when
+#    RESET command is initiated, is delayed with additional 500 ps.
+#    (For compatibility with Modelsim 6.4b Version)
+
+# Files modified
+-s25fl128s.v
+##########################################
+##########################################
+VITAL model author -  Vesna Mancev
+                      v-mancev@hdl-dh.com
+                      Ranko Prokopovic
+                      r-prokopovic@hdl-dh.com
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2009-11-20-1.tar.gz
+# Release Date (DD/MM/YYYY) => 20/11/2009
+# Release Version           => 1.2
+
+# Corrections:
+#	1.Negative tests which show how model behaves when reset pulse
+#         width is less than specified and when write and erase operations are interrupted .
+#         with reset signal are interrupted with reset signal are added.
+#       2.Implementation of Continuous Read Mode
+#       3.After 8 clock cycles for instruction, first address bit is latched on the next
+#         rising edge of clock.
+
+# Files modified
+-s25fl128s.vhd
+-testbench_s25fl128s_vhdl.vhd
+-spansion_tc_pkg.vhd
+-s25fl128s.ftm
+-s25fl128s_vhdl.sdf
+-s25fl128s.v
+-testbench_s25fl128s_verilog.vhd
+-s25fl128s.ftmv
+-s25fl128s_verilog.sdf
+##########################################
+##########################################
+VITAL model author -  Vesna Mancev
+                      v-mancev@hdl-dh.com
+                      Ranko Prokopovic
+                      r-prokopovic@hdl-dh.com
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2009-11-23-1.tar.gz
+# Release Date (DD/MM/YYYY) => 23/11/2009
+# Release Version           => 1.3
+
+# Corrections:
+#	1.Correction of Bulk Erase Time
+#
+
+# Files modified
+-s25fl128s.v
+##########################################
+##########################################
+VITAL model author -  Vesna Mancev
+                      v-mancev@hdl-dh.com
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2010-02-24-1.tar.gz
+# Release Date (DD/MM/YYYY) => 24/02/2010
+# Release Version           => 1.4
+
+# Corrections:
+#	1.Array variable WByte in sensitivity list is replaced with signal WB_flag to enable
+#         compilation in NCSim
+#       2.addr_cnt for second read in high performance read continuous mode can change its
+#         value only when CSNeg = '0'
+
+# Files modified
+-s25fl128s.v
+-s25fl128s.vhd
+##########################################
+##########################################
+VITAL model author -  Vesna Mancev
+                      v-mancev@hdl-dh.com
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2010-04-15-1.tar.gz
+# Release Date (DD/MM/YYYY) => 15/04/2010
+# Release Version           => 1.5
+
+# Corrections:
+#	1.HOLD mode corrected
+#       2.Condition for PP operation corrected
+
+# Files modified
+-s25fl128s.v
+##########################################
+##########################################
+VITAL model author -  Vesna Mancev
+                      v-mancev@hdl-dh.com
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2010-05-19-1.tar.gz
+# Release Date (DD/MM/YYYY) => 19/05/2010
+# Release Version           => 1.6
+
+# Corrections:
+#       1.SRWD bit assignment is corrected
+#       2.Condition for WRR command in write_cycle_decode section is corrected
+#       3.Blocking assignments for signals WSTART and PSTART are replaced with
+#         nonblocking assignments
+#       4.Conditions in Page Program section are fixed
+#
+
+# Files modified
+-s25fl128s.v
+-s25fl128s.vhd
+##########################################
+##########################################
+VITAL model author -  Vesna Mancev
+                      v-mancev@hdl-dh.com
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2010-05-26-1.tar.gz
+# Release Date (DD/MM/YYYY) => 26/05/2010
+# Release Version           => 1.7
+
+# Corrections:
+#       1. Timing control sections for Program and Erase operation are changed
+#       2. Conditions in Page Program section are fixed
+#
+
+# Files modified
+-s25fl128s.v
+##########################################
+##########################################
+VITAL model author -  Vesna Mancev
+                      v-mancev@hdl-dh.com
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2010-06-03-2.tar.gz
+# Release Date (DD/MM/YYYY) => 03/06/2010
+# Release Version           => 1.8
+
+# Corrections:
+#       1. bus_cycle_state section for PGSP command is fixed
+#
+
+# Files modified
+-s25fl128s.v
+##########################################
+##########################################
+VITAL model author -  Vesna Mancev
+                      v-mancev@hdl-dh.com
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2010-07-29-1.tar.gz
+# Release Date (DD/MM/YYYY) => 29/07/2010
+# Release Version           => 1.9
+
+# Corrections:
+#       1. During the QUAD mode HOLD# input is not monitored for its normal function
+#       2. Internal pull-up resistors for HOLD# and WP# inputs are implemented
+
+# Files modified
+-s25fl128s.v
+-s25fl128s.vhd
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2010-08-24-1.tar.gz
+# Release Date (DD/MM/YYYY) => 24/08/2010
+# Release Version           => 2.0
+
+# Corrections:
+#       1. All redundant signals are removed from BusCycle process
+
+# Files modified
+-s25fl128s.v
+-s25fl128s.vhd
+##########################################
+##########################################
+VITAL model author -  Vesna Mancev
+                      v-mancev@hdl-dh.com
+                      Ranko Prokopovic
+                      r-prokopovic@hdl-dh.com
+                      Branislav Colakovic
+                      b-colakovic@hdl-dh.com
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2010-10-19-2.tar.gz
+# Release Date (DD/MM/YYYY) => 19/10/2010
+# Release Version           => 2.1
+
+# Corrections:
+#       1. Path delay correction: path delay is longer than clock cycle.
+#       2. Write bank register: WIP bit of status register 1 is not affected by this
+#          instruction.
+#       3. All other functionality is updated according to new datasheet version 1.5
+
+# Files modified
+-s25fl128s.v
+-testbench_s25fl128s_verilog.vhd
+-s25fl128s.ftmv
+-s25fl128s_verilog.sdf
+-spansion_tc_pkg.vhd
+##########################################
+##########################################
+VITAL model author -  Vesna Mancev
+                      v-mancev@hdl-dh.com
+                      Ranko Prokopovic
+                      r-prokopovic@hdl-dh.com
+                      Branislav Colakovic
+                      b-colakovic@hdl-dh.com
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2010-10-21-1.tar.gz
+# Release Date (DD/MM/YYYY) => 21/10/2010
+# Release Version           => 2.2
+
+# Corrections:
+#       1. VHDL model, which is alligned with datasheet version 1.5, added to the release
+#       2. Names of documentation files are updated
+
+# Files modified
+-s25fl128s.vhd
+-testbench_s25fl128s_vhdl.vhd
+-s25fl128s.ftm
+-s25fl128s_vhdl.sdf
+-spansion_flash_testbench_struct.pdf
+-spansion_flash_test_cases_list.pdf
+##########################################
+##########################################
+VITAL model author -  Vesna Mancev
+                      v-mancev@hdl-dh.com
+                      Ranko Prokopovic
+                      r-prokopovic@hdl-dh.com
+                      Branislav Colakovic
+                      b-colakovic@hdl-dh.com
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2010-11-05-1.tar.gz
+# Release Date (DD/MM/YYYY) => 05/11/2010
+# Release Version           => 2.3
+
+# Corrections:
+#       1. Hybrid configuration added
+
+# Files modified
+-s25fl128s.v
+-s25fl128s.vhd
+-testbench_s25fl128s_verilog.vhd
+-testbench_s25fl128s_vhdl.vhd
+-spansion_tc_pkg.vhd
+-s25fl128s.ftmv
+-s25fl128s.ftm
+-s25fl128s_verilog.sdf
+-s25fl128s_vhdl.sdf
+##########################################
+##########################################
+VITAL model author -  Vesna Mancev
+                      v-mancev@hdl-dh.com
+                      Ranko Prokopovic
+                      r-prokopovic@hdl-dh.com
+                      Branislav Colakovic
+                      b-colakovic@hdl-dh.com
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2010-11-12-1.tar.gz
+# Release Date (DD/MM/YYYY) => 12/11/2010
+# Release Version           => 2.4
+
+# Corrections:
+#       1. QUAD Program operation during Erase Suspend is added
+#       2. Warning for Resume to Suspend time is added
+#       3. During Erase Suspend, after Program operation is completed, WEL bit is cleared
+#       4. Implemetation of Software Reset is Changed
+
+# Files modified
+-spansion_tc_pkg.vhd
+-s25fl128s.v
+-s25fl128s.vhd
+##########################################
+##########################################
+VITAL model author -  Snezana Petrovic
+                      s-petrovic@hdl-dh.com
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2011-04-08-2.tar.gz
+# Release Date (DD/MM/YYYY) => 08/04/2011
+# Release Version           => 2.5
+
+# Corrections:
+- corrected timing for internal signal rising_edge_CSNeg_ipd
+
+# Files modified
+-s25fl128s.v
+##########################################
+##########################################
+VITAL model author -  Vesna Mancev
+                      v-mancev@hdl-dh.com
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2011-05-11-1.tar.gz
+# Release Date (DD/MM/YYYY) => 11/05/2011
+# Release Version           => 2.6
+
+# Corrections:
+- Condition for CS# High Time(Program/Erase) is fixed
+
+# Files modified
+-s25fl128s.vhd
+-testbench_s25fl128s_vhdl.vhd
+-spansion_tc_pkg.vhd
+-s25fl128s.v
+-testbench_s25fl128s_verilog.vhd
+-s25fl128s.ftmv
+-s25fl128s_verilog.sdf
+##########################################
+##########################################
+VITAL model author -  Vesna Mancev
+                      v-mancev@hdl-dh.com
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2011-07-01-1.tar.gz
+# Release Date (DD/MM/YYYY) => 01/07/2011
+# Release Version           => 2.7
+
+# Corrections:
+- Latest Datasheet Aligned
+
+# Files modified
+-s25fl128s.v
+-s25fl128s.vhd
+-testbench_s25fl128s_verilog.vhd
+-testbench_s25fl128s_vhdl.vhd
+-spansion_tc_pkg.vhd
+-s25fl128s.ftmv
+-s25fl128s.ftm
+-s25fl128s_verilog.sdf
+-s25fl128s_vhdl.sdf
+##########################################
+##########################################
+VITAL model author -  Vesna Mancev
+                      v-mancev@hdl-dh.com
+                      Branislav Colakovic
+                      b-colakovic@hdl-dh.com
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2011-07-14-2.tar.gz
+# Release Date (DD/MM/YYYY) => 14/07/2011
+# Release Version           => 2.8
+
+# Corrections:
+- Optimization issue is fixed
+
+# Files modified
+-s25fl128s.v
+##########################################
+##########################################
+VITAL model author -  Vesna Mancev
+                      v-mancev@hdl-dh.com
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2011-07-22-1.tar.gz
+# Release Date (DD/MM/YYYY) => 22/07/2011
+# Release Version           => 2.9
+
+# Corrections:
+- Timing check issue is fixed
+
+# Files modified
+-s25fl128s.v
+##########################################
+##########################################
+VITAL model author -  Vesna Mancev
+                      v-mancev@hdl-dh.com
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2011-11-16-1.tar.gz
+# Release Date (DD/MM/YYYY) => 16/11/2011
+# Release Version           => 3.0
+
+# Corrections:
+- Time tHO is changed to 1 ns (customer's request)
+- Setting of Device protection mode is modified (customer's request)
+- BRWR instruction is corrected
+
+# Files modified
+-s25fl128s.v
+-s25fl128s.vhd
+-testbench_s25fl128s_verilog.vhd
+-testbench_s25fl128s_vhdl.vhd
+-s25fl128s.ftmv
+-s25fl128s.ftm
+-s25fl128s_verilog.sdf
+-s25fl128s_vhdl.sdf
+##########################################
+##########################################
+VITAL model author -  Snezana Petrovic
+                     s-petrovic@hdl-dh.com
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2012-08-28-1.tar.gz
+# Release Date (DD/MM/YYYY) => 28/08/2012
+# Release Version           => 3.1
+
+# Corrections:
+- QPP instruction is allowed on previously programmed page
+
+# Files modified
+-s25fl128s.v
+-s25fl128s.vhd
+-testbench_s25fl128s_verilog.vhd
+-testbench_s25fl128s_vhdl.vhd
+-spansion_tc_pkg.vhd
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2012-08-30-1.tar.gz
+# Release Date (DD/MM/YYYY) => 30/08/2012
+# Release Version           => 3.2
+
+# Corrections:
+- Wrong code corrected
+
+# Files modified
+-s25fl128s.v
+##########################################
+VITAL model author -  Vesna Mancev
+                      v-mancev@hdl-dh.com
+##########################################
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2013-02-13-2.tar.gz
+# Release Date (DD/MM/YYYY) => 13/02/2013
+# Release Version           => 3.3
+
+# Corrections:
+- Reverted restriction for QPP on programmed page and added clearing with sector erase
+
+# Files modified
+-s25fl128s.v
+-s25fl128s.vhd
+-testbench_s25fl128s_verilog.vhd
+-testbench_s25fl128s_vhdl.vhd
+-spansion_tc_pkg.vhd
+##########################################
+VITAL model author -  Snezana Petrovic
+                     s-petrovic@hdl-dh.com
+##########################################
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2013-11-28-1.tar.gz
+# Release Date (DD/MM/YYYY) => 28/11/2013
+# Release Version           => 3.4
+
+# Corrections:
+- Corrected FSM state transitions on Power-Up and HW reset
+
+# Files modified
+-s25fl128s.v
+-s25fl128s.vhd
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2013-12-16-1.tar.gz
+# Release Date (DD/MM/YYYY) => 16/12/2013
+# Release Version           => 3.5
+
+# Corrections:
+- Corrected read DLP.
+- Corrected FSM state transition upon HW reset
+- Corrected AutoBoot register decoding
+
+# Files modified
+-s25fl128s.v
+-s25fl128s.vhd
+-testbench_s25fl128s_verilog.vhd
+-testbench_s25fl128s_vhdl.vhd
+##########################################
+##########################################
+VITAL model author -  Marko Stojanovic
+                      m-stojanovic@hdl-dh.com
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2015-05-15-2.tar.gz
+# Release Date (DD/MM/YYYY) => 15/05/2015
+# Release Version           => 3.6
+
+# Corrections:
+- Upper address bits are ignored for RD4 command
+
+# Files modified
+-s25fl128s.v
+-s25fl128s.vhd
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2015-05-29-1.tar.gz
+# Release Date (DD/MM/YYYY) => 29/05/2015
+# Release Version           => 3.7
+
+# Corrections:
+- Upper address bits are ignored for all QUAD commands
+
+# Files modified
+-s25fl128s.v
+-s25fl128s.vhd
+##########################################
+# Release Label             => vital-amd-serial-s25fl-REL-s25fl128s-2016-05-11-1.tar.gz
+# Release Date (DD/MM/YYYY) => 11/05/2016
+# Release Version           => 3.8
+
+# Corrections:
+- Do not generate P_ERR for QPP and QPP4 commands in case the same page is
+- programmed more than once. However do not generate P_ERR if this occurs.
+
+# Files modified
+-s25fl128s.v
+-s25fl128s.vhd
+-testbench_s25fl128s_verilog.vhd
+-testbench_s25fl128s_vhdl.vhd
+-spansion_tc_pkg.vhd
+##########################################

@@ -1,0 +1,41 @@
+
+
+/***************************** Include Files *******************************/
+#include "Exin_StepCounter_debug.h"
+#include "xil_io.h"
+
+#include "V:\software\m3_for_arty_a7\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\Exin_MPU6050_GYXX_v1_0\src\Exin_MPU6050_GYXX.h"
+
+/************************** Function Definitions ***************************/
+
+int n_step = 100;
+int step_counter = 0;
+double STEPCOUNTER_MIXVALUE = 0;
+
+int PULL_UP = 0;
+int JMP_UP = 0;
+unsigned int state = 0;//状态机器
+unsigned int state1 = 0;//状态机器
+unsigned int move_step = 0;//运动模式第一阶段
+int move_time0 = 0;//运动时间记录当前运动起始时间
+int move_time1 = 0;//运动时间记录当前运动结束时间
+int step_time = 30;//运动轮次转换时间
+int step_state = 0;//记录当前运动阶段
+int step_up = 5;//每次运动量增加/起始运动量
+int move_sum = 0;//运动总量
+
+void EXIN_STEPCOUNTER_Get()
+{
+	Az = Az - 9.8;
+	EXIN_STEPCOUNTER_DEBUG_mWriteReg(XPAR_EXIN_STEPCOUNTER_DEB_0_S00_AXI_BASEADDR, EXIN_STEPCOUNTER_DEBUG_S00_AXI_SLV_REG4_OFFSET, 600);
+	EXIN_STEPCOUNTER_DEBUG_mWriteReg(XPAR_EXIN_STEPCOUNTER_DEB_0_S00_AXI_BASEADDR, EXIN_STEPCOUNTER_DEBUG_S00_AXI_SLV_REG5_OFFSET, 500000);
+	EXIN_STEPCOUNTER_DEBUG_mWriteReg(XPAR_EXIN_STEPCOUNTER_DEB_0_S00_AXI_BASEADDR, EXIN_STEPCOUNTER_DEBUG_S00_AXI_SLV_REG6_OFFSET, 3);
+	
+	EXIN_STEPCOUNTER_DEBUG_mWriteReg(XPAR_EXIN_STEPCOUNTER_DEB_0_S00_AXI_BASEADDR, EXIN_STEPCOUNTER_DEBUG_S00_AXI_SLV_REG0_OFFSET, 1);
+	EXIN_STEPCOUNTER_DEBUG_mWriteReg(XPAR_EXIN_STEPCOUNTER_DEB_0_S00_AXI_BASEADDR, EXIN_STEPCOUNTER_DEBUG_S00_AXI_SLV_REG1_OFFSET, Ax * 32768);
+	EXIN_STEPCOUNTER_DEBUG_mWriteReg(XPAR_EXIN_STEPCOUNTER_DEB_0_S00_AXI_BASEADDR, EXIN_STEPCOUNTER_DEBUG_S00_AXI_SLV_REG2_OFFSET, Ay * 32768);
+	EXIN_STEPCOUNTER_DEBUG_mWriteReg(XPAR_EXIN_STEPCOUNTER_DEB_0_S00_AXI_BASEADDR, EXIN_STEPCOUNTER_DEBUG_S00_AXI_SLV_REG3_OFFSET, Az * 32768);
+	
+	step_counter = EXIN_STEPCOUNTER_DEBUG_mReadReg(XPAR_EXIN_STEPCOUNTER_DEB_0_S00_AXI_BASEADDR, EXIN_STEPCOUNTER_DEBUG_S00_AXI_SLV_REG7_OFFSET);
+	STEPCOUNTER_MIXVALUE = EXIN_STEPCOUNTER_DEBUG_mReadReg(XPAR_EXIN_STEPCOUNTER_DEB_0_S00_AXI_BASEADDR, EXIN_STEPCOUNTER_DEBUG_S00_AXI_SLV_REG8_OFFSET) / 32768.0;
+}

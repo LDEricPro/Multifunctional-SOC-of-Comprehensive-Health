@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat May 29 18:04:13 2021
+# Process ID: 50916
+# Current directory: D:/Xilinx/Project/ARM_Cortex_M3_2019.1/hardware/m3_for_arty_a7/m3_for_arty_a7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28424 D:\Xilinx\Project\ARM_Cortex_M3_2019.1\hardware\m3_for_arty_a7\m3_for_arty_a7\m3_for_arty_a7.xpr
+# Log file: D:/Xilinx/Project/ARM_Cortex_M3_2019.1/hardware/m3_for_arty_a7/m3_for_arty_a7/vivado.log
+# Journal file: D:/Xilinx/Project/ARM_Cortex_M3_2019.1/hardware/m3_for_arty_a7/m3_for_arty_a7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Xilinx/Project/ARM_Cortex_M3_2019.1/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/Xilinx/Project/ARM_Cortex_M3_2019.1/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd}

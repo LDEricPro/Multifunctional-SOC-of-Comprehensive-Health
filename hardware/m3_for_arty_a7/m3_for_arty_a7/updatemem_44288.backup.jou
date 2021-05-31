@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# updatemem v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat May 29 16:35:27 2021
+# Process ID: 44288
+# Current directory: v:/hardware/m3_for_arty_a7/m3_for_arty_a7
+# Command line: updatemem.exe -mode batch -source D:/Xilinx/Vivado/2019.1/scripts/updatemem/main.tcl -notrace -tclargs -meminfo ./m3.mmi -data ./bram_a7.elf -proc dummy -bit ./m3_for_arty_a7.runs/impl_1/m3_for_arty_a7_wrapper.bit -out m3_for_arty_a7.bit -force
+# Log file: v:/hardware/m3_for_arty_a7/m3_for_arty_a7/updatemem.log
+# Journal file: v:/hardware/m3_for_arty_a7/m3_for_arty_a7\updatemem.jou
+#-----------------------------------------------------------
+source D:/Xilinx/Vivado/2019.1/scripts/updatemem/main.tcl -notrace

@@ -1,0 +1,88 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat May 29 18:04:13 2021
+# Process ID: 50916
+# Current directory: D:/Xilinx/Project/ARM_Cortex_M3_2019.1/hardware/m3_for_arty_a7/m3_for_arty_a7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28424 D:\Xilinx\Project\ARM_Cortex_M3_2019.1\hardware\m3_for_arty_a7\m3_for_arty_a7\m3_for_arty_a7.xpr
+# Log file: D:/Xilinx/Project/ARM_Cortex_M3_2019.1/hardware/m3_for_arty_a7/m3_for_arty_a7/vivado.log
+# Journal file: D:/Xilinx/Project/ARM_Cortex_M3_2019.1/hardware/m3_for_arty_a7/m3_for_arty_a7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Xilinx/Project/ARM_Cortex_M3_2019.1/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.xpr
+WARNING: [Board 49-91] Board repository path 'C:/Users/adm/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store' does not exist, it will not be used to search board files.
+INFO: [Project 1-313] Project file moved from 'V:/hardware/m3_for_arty_a7/m3_for_arty_a7' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Xilinx/Project/ARM_Cortex_M3_2019.1/vivado/Arm_ipi_repository'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Study/jichuang/Arty_A7100T_IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.1/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'm3_for_arty_a7.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+m3_for_arty_a7_Exin_IO_printer_0_0
+
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 900.895 ; gain = 263.637
+update_compile_order -fileset sources_1
+open_bd_design {D:/Xilinx/Project/ARM_Cortex_M3_2019.1/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd}
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_DAPLink
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_base
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - i_interconnect_aresetn
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - i_peripheral_aresetn1
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - i_sysresetn_or
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - i_inv_dbgresetn
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - i_inv_sysresetn1
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.1 - axi_bram_ctrl_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_1
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - tier2_xbar_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - tier2_xbar_1
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - tier2_xbar_2
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_quad_spi:3.2 - axi_quad_spi_0
+Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_quad_spi:3.2 - axi_single_spi_0
+Adding component instance block -- xilinx.com:ip:axi_quad_spi:3.2 - axi_quad_spi_0
+Adding component instance block -- xilinx.com:ip:axi_quad_spi:3.2 - axi_xip_quad_spi_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - axi_protocol_convert_0
+Adding component instance block -- Arm.com:user:DAPLink_to_Arty_shield:1.0 - DAPLink_to_Arty_shield_0
+Adding component instance block -- xilinx.com:module_ref:tri_io_buf:1.0 - tri_io_buf_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- Arm.com:CortexM:CORTEXM3_AXI:1.1 - Cortex_M3_0
+Adding component instance block -- xilinx.com:user:Exin_ADC0832:1.0 - Exin_ADC0832_0
+Adding component instance block -- xilinx.com:user:Exin_HeartFre2:1.0 - Exin_HeartFre2_0
+Adding component instance block -- xilinx.com:user:Exin_MAXMIN2:1.0 - Exin_MAXMIN2_0
+Adding component instance block -- xilinx.com:user:Exin_dht11:1.0 - Exin_dht11_0
+Adding component instance block -- xilinx.com:user:Exin_MPU6050_GYXX:1.0 - Exin_MPU6050_GYXX_0
+Adding component instance block -- xilinx.com:user:Exin_StepCounter_debug:1.0 - Exin_StepCounter_deb_0
+Adding component instance block -- xilinx.com:user:breath_led:1.0 - breath_led_0
+Adding component instance block -- xilinx.com:user:Exin_Timer:1.0 - Exin_Timer_0
+Adding component instance block -- xilinx.com:user:Exin_beep:1.0 - Exin_beep_0
+Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_1
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_2
+Adding component instance block -- xilinx.com:user:Exin_clk_wizard:1.0 - Exin_clk_wizard_0
+Adding component instance block -- xilinx.com:user:Exin_clk_wizard:1.0 - Exin_clk_wizard_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_2
+Adding component instance block -- xilinx.com:user:Exin_noliner2:1.0 - Exin_noliner2_0
+Adding component instance block -- xilinx.com:user:Exin_HMITX:1.0 - Exin_HMITX_0
+Adding component instance block -- xilinx.com:user:Exin_IO_printer:1.0 - Exin_IO_printer_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Exin_clk_wizard_0/q(undef) and /Exin_ADC0832_0/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Exin_clk_wizard_1/q(undef) and /Exin_MAXMIN2_0/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Exin_clk_wizard_1/q(undef) and /Exin_dht11_0/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Exin_clk_wizard_1/q(undef) and /Exin_HeartFre2_0/clk(clk)
+Successfully read diagram <m3_for_arty_a7> from BD file <D:/Xilinx/Project/ARM_Cortex_M3_2019.1/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd>
+open_bd_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1094.434 ; gain = 117.004
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat May 29 20:49:40 2021...

@@ -1,0 +1,54 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port aux_reset_in -pg 1 -lvl 0 -x 0 -y 570 -defaultsOSRD
+preplace port clk_cpu -pg 1 -lvl 5 -x 1230 -y 20 -defaultsOSRD
+preplace port sys_clock -pg 1 -lvl 0 -x 0 -y 70 -defaultsOSRD
+preplace port clk_qspi -pg 1 -lvl 5 -x 1230 -y 40 -defaultsOSRD
+preplace port sysresetreq -pg 1 -lvl 0 -x 0 -y 590 -defaultsOSRD
+preplace port sys_reset_n -pg 1 -lvl 0 -x 0 -y 230 -defaultsOSRD
+preplace port clk_100MHZ -pg 1 -lvl 5 -x 1230 -y 80 -defaultsOSRD
+preplace port clk_50MHZ -pg 1 -lvl 5 -x 1230 -y 100 -defaultsOSRD
+preplace port clk_5MHZ -pg 1 -lvl 5 -x 1230 -y 120 -defaultsOSRD
+preplace portBus interconnect_aresetn -pg 1 -lvl 5 -x 1230 -y 480 -defaultsOSRD
+preplace portBus peripheral_aresetn -pg 1 -lvl 5 -x 1230 -y 600 -defaultsOSRD
+preplace portBus sysresetn -pg 1 -lvl 5 -x 1230 -y 710 -defaultsOSRD
+preplace portBus dbgresetn -pg 1 -lvl 5 -x 1230 -y 210 -defaultsOSRD
+preplace portBus peripheral_aresetn1 -pg 1 -lvl 5 -x 1230 -y 410 -defaultsOSRD
+preplace inst proc_sys_reset_DAPLink -pg 1 -lvl 2 -x 370 -y 570 -defaultsOSRD
+preplace inst proc_sys_reset_base -pg 1 -lvl 2 -x 370 -y 250 -defaultsOSRD
+preplace inst i_interconnect_aresetn -pg 1 -lvl 4 -x 1040 -y 480 -defaultsOSRD
+preplace inst i_peripheral_aresetn1 -pg 1 -lvl 4 -x 1040 -y 600 -defaultsOSRD
+preplace inst i_sysresetn_or -pg 1 -lvl 3 -x 710 -y 420 -defaultsOSRD
+preplace inst i_inv_dbgresetn -pg 1 -lvl 4 -x 1040 -y 220 -defaultsOSRD
+preplace inst i_inv_sysresetn1 -pg 1 -lvl 4 -x 1040 -y 710 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 4 -x 1040 -y 70 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 1 -x 100 -y 510 -defaultsOSRD
+preplace netloc dcm_locked_1 1 1 4 200 360 550J 350 NJ 350 1190
+preplace netloc aux_reset_in_1 1 0 2 NJ 570 NJ
+preplace netloc clk_wiz_0_clk_out1 1 1 4 190 350 540J 340 NJ 340 1200
+preplace netloc sys_clock_1 1 0 4 NJ 70 NJ 70 NJ 70 NJ
+preplace netloc proc_sys_reset_DAPLink_peripheral_aresetn 1 2 3 N 610 880J 410 N
+preplace netloc proc_sys_reset_DAPLink_interconnect_aresetn 1 2 2 560 490 NJ
+preplace netloc proc_sys_reset_base_peripheral_aresetn 1 2 2 N 290 870J
+preplace netloc proc_sys_reset_base_interconnect_aresetn 1 2 2 NJ 270 890
+preplace netloc i_peripheral_aresetn1_Res 1 4 1 NJ 600
+preplace netloc i_interconnect_aresetn_Res 1 4 1 NJ 480
+preplace netloc proc_sys_reset_base_mb_reset 1 2 2 560 220 NJ
+preplace netloc proc_sys_reset_DAPLink_mb_reset 1 2 1 540 430n
+preplace netloc i_inv_sysresetn1_Res 1 4 1 NJ 710
+preplace netloc i_inv_dbgresetn_Res 1 4 1 1210J 210n
+preplace netloc i_sysresetn_or_Res 1 3 1 860J 420n
+preplace netloc xlconstant_0_dout 1 1 1 180J 510n
+preplace netloc clk_wiz_0_clk_out2 1 4 1 NJ 40
+preplace netloc sysresetreq 1 0 2 NJ 590 NJ
+preplace netloc sys_reset_n 1 0 2 NJ 230 NJ
+preplace netloc clk_wiz_0_clk_out3 1 4 1 N 80
+preplace netloc clk_wiz_0_clk_out4 1 4 1 N 100
+preplace netloc clk_wiz_0_clk_out5 1 4 1 N 120
+levelinfo -pg 1 0 100 370 710 1040 1230
+pagesize -pg 1 -db -bbox -sgen -140 -40 1450 770
+"
+}
+

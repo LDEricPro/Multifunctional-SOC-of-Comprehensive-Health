@@ -1,0 +1,136 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sat May 29 20:52:26 2021
+| Host         : DESKTOP-NJBJAPS running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_Exin_IO_printer_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of m3_for_arty_a7_Exin_IO_printer_0_0 (xilinx.com:user:Exin_IO_printer:1.0) from (Rev. 3) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sat May 29 11:38:31 2021
+| Host         : DESKTOP-NJBJAPS running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_Exin_IO_printer_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of m3_for_arty_a7_Exin_IO_printer_0_0 (xilinx.com:user:Exin_IO_printer:1.0) from (Rev. 2) to (Rev. 3)
+
+After upgrade, an IP may have parameter differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality.
+
+2. Customization warnings
+-------------------------
+
+The normal upgrade process failed due to validation failures in the given configuration. Attempting partial upgrade to set as many user parameters as possible. Please check the parameters whose values were not applied.
+
+Unable to set the value '2' on parameter 'N' due to the following failure - 
+Validation failed for parameter 'N(n)' for BD Cell 'm3_for_arty_a7_Exin_IO_printer_0_0'. Value '2' is out of the range (4,5000000)
+. Restoring to an old valid value of '4'
+
+
+3. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:user:Exin_IO_printer:1.0 -user_name m3_for_arty_a7_Exin_IO_printer_0_0
+set_property -dict "\
+  CONFIG.C_S0_AXI_ADDR_WIDTH {5} \
+  CONFIG.C_S0_AXI_BASEADDR {0xFFFFFFFF} \
+  CONFIG.C_S0_AXI_DATA_WIDTH {32} \
+  CONFIG.C_S0_AXI_HIGHADDR {0x00000000} \
+  CONFIG.Component_Name {m3_for_arty_a7_Exin_IO_printer_0_0} \
+  CONFIG.S0_AXI.ADDR_WIDTH {5} \
+  CONFIG.S0_AXI.ARUSER_WIDTH {0} \
+  CONFIG.S0_AXI.AWUSER_WIDTH {0} \
+  CONFIG.S0_AXI.BUSER_WIDTH {0} \
+  CONFIG.S0_AXI.CLK_DOMAIN {/Clocks_and_Resets/clk_wiz_0_clk_out1} \
+  CONFIG.S0_AXI.DATA_WIDTH {32} \
+  CONFIG.S0_AXI.FREQ_HZ {50000000} \
+  CONFIG.S0_AXI.HAS_BRESP {1} \
+  CONFIG.S0_AXI.HAS_BURST {0} \
+  CONFIG.S0_AXI.HAS_CACHE {0} \
+  CONFIG.S0_AXI.HAS_LOCK {0} \
+  CONFIG.S0_AXI.HAS_PROT {1} \
+  CONFIG.S0_AXI.HAS_QOS {0} \
+  CONFIG.S0_AXI.HAS_REGION {0} \
+  CONFIG.S0_AXI.HAS_RRESP {1} \
+  CONFIG.S0_AXI.HAS_WSTRB {1} \
+  CONFIG.S0_AXI.ID_WIDTH {0} \
+  CONFIG.S0_AXI.INSERT_VIP {0} \
+  CONFIG.S0_AXI.MAX_BURST_LENGTH {1} \
+  CONFIG.S0_AXI.NUM_READ_OUTSTANDING {2} \
+  CONFIG.S0_AXI.NUM_READ_THREADS {1} \
+  CONFIG.S0_AXI.NUM_WRITE_OUTSTANDING {2} \
+  CONFIG.S0_AXI.NUM_WRITE_THREADS {1} \
+  CONFIG.S0_AXI.PHASE {0.0} \
+  CONFIG.S0_AXI.PROTOCOL {AXI4LITE} \
+  CONFIG.S0_AXI.READ_WRITE_MODE {READ_WRITE} \
+  CONFIG.S0_AXI.RUSER_BITS_PER_BYTE {0} \
+  CONFIG.S0_AXI.RUSER_WIDTH {0} \
+  CONFIG.S0_AXI.SUPPORTS_NARROW_BURST {0} \
+  CONFIG.S0_AXI.WIZ_DATA_WIDTH {32} \
+  CONFIG.S0_AXI.WIZ_NUM_REG {5} \
+  CONFIG.S0_AXI.WUSER_BITS_PER_BYTE {0} \
+  CONFIG.S0_AXI.WUSER_WIDTH {0} \
+  CONFIG.S0_AXI_CLK.ASSOCIATED_BUSIF {S0_AXI} \
+  CONFIG.S0_AXI_CLK.ASSOCIATED_RESET {s0_axi_aresetn} \
+  CONFIG.S0_AXI_CLK.CLK_DOMAIN {/Clocks_and_Resets/clk_wiz_0_clk_out1} \
+  CONFIG.S0_AXI_CLK.FREQ_HZ {50000000} \
+  CONFIG.S0_AXI_CLK.INSERT_VIP {0} \
+  CONFIG.S0_AXI_CLK.PHASE {0.0} \
+  CONFIG.S0_AXI_RST.INSERT_VIP {0} \
+  CONFIG.S0_AXI_RST.POLARITY {ACTIVE_LOW} \
+  CONFIG.clk.ASSOCIATED_BUSIF {clk} \
+  CONFIG.clk.ASSOCIATED_RESET {} \
+  CONFIG.clk.CLK_DOMAIN {/Clocks_and_Resets/clk_wiz_0_clk_out1} \
+  CONFIG.clk.FREQ_HZ {5468750} \
+  CONFIG.clk.INSERT_VIP {0} \
+  CONFIG.clk.PHASE {0.0} \
+  CONFIG.n {2} " [get_ips m3_for_arty_a7_Exin_IO_printer_0_0]
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Fri May 28 21:05:48 2021
+| Host         : DESKTOP-NJBJAPS running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_Exin_IO_printer_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of m3_for_arty_a7_Exin_IO_printer_0_0 (xilinx.com:user:Exin_IO_printer:1.0 (Rev. 2)) to Vivado generation flows.
+

@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# updatemem v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat May 29 20:56:37 2021
+# Process ID: 49980
+# Current directory: V:/hardware/m3_for_arty_a7/m3_for_arty_a7
+# Command line: updatemem.exe -mode batch -source D:/Xilinx/Vivado/2019.1/scripts/updatemem/main.tcl -notrace -tclargs -meminfo ./m3.mmi -data ./bram_a7.elf -proc dummy -bit ./m3_for_arty_a7.runs/impl_1/m3_for_arty_a7_wrapper.bit -out m3_for_arty_a7.bit -force
+# Log file: V:/hardware/m3_for_arty_a7/m3_for_arty_a7/updatemem.log
+# Journal file: V:/hardware/m3_for_arty_a7/m3_for_arty_a7\updatemem.jou
+#-----------------------------------------------------------
+source D:/Xilinx/Vivado/2019.1/scripts/updatemem/main.tcl -notrace
+Command: update_mem -meminfo ./m3.mmi -data ./bram_a7.elf -proc dummy -bit ./m3_for_arty_a7.runs/impl_1/m3_for_arty_a7_wrapper.bit -out m3_for_arty_a7.bit -force
+Loading bitfile ./m3_for_arty_a7.runs/impl_1/m3_for_arty_a7_wrapper.bit
+Loading data files...
+Updating memory content...
+Creating bitstream...
+Writing bitstream m3_for_arty_a7.bit...
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+update_mem completed successfully
+update_mem: Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 540.445 ; gain = 472.965
+INFO: [Common 17-206] Exiting updatemem at Sat May 29 20:56:52 2021...
